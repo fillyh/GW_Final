@@ -1,0 +1,152 @@
+body{
+    margin:0 auto;
+
+
+}
+
+
+/*Start Nav Styles*/
+
+.main-nav{
+    height:100vh;
+    padding:15px 30px;
+    text-decoration:none;
+    background:url("../img/iplace_hero.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-list{
+    float:right;
+    list-style: none;
+    font-size:20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.nav-item{
+  float:left;
+  margin-left:15px;
+}
+
+.nav-link{
+  text-decoration:none;
+    color:#404E59;
+  padding: 30px 20px 48px 10px;
+    
+}
+
+.logo{
+    height:60px;
+    float:left;
+    padding:10px 0px 0px 15px;
+}
+
+/*End Nav Styles*/
+
+/* Hero Section */
+
+.hero{
+    height:90vh;
+    width:100%;
+    margin-top:0;
+    top:0;
+    padding:5% 5%;
+    position:absolute;
+    top:0px;
+}
+
+
+.column{
+    width:50%;
+    float:left;
+    text-align: center;
+}
+
+.right{
+  margin-top:3%;
+}
+.left{
+    margin-top:5%;
+}
+
+.logo-large{
+    margin: 0 auto;
+    width:80%;
+}
+
+.iphone-hero{
+  height: 90%;
+}
+
+h1{
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 25px; 
+    font-size: 85px;
+    color:white;
+    text-shadow: 1px 1px 15px #010032;
+    line-height: 90px;
+}
+
+.itunes-button{
+    width: 35%;
+    margin: 10px;
+}
+
+/* End Hero Section */
+
+/* Start Features Section */
+
+.features:after{
+      content:"";
+    display:block;
+    clear:both;
+}
+.features{
+    background-color:#d7f5ff;
+    padding:40px 0px;
+}
+
+.app-column{
+    margin:0 auto;
+    width:65%;
+    float:left;
+}
+
+.app-preview{
+    width:80%;
+    padding-left:10%;
+}
+
+.text-container{
+    background-color:black;
+    float:right;
+}
+
+.reviews{
+    margin-top:8%;
+    width:35%;
+    float:left;
+}
+h2{
+    font-family: 'Oxygen', sans-serif;
+    font-size:40px;
+    margin:0;
+    color:#414042;
+    font-weight: bold
+}
+
+p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    color:#414042;
+}
+
+syntax{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quote1{
+    padding-bottom:20px;
+}
