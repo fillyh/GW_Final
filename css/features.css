@@ -1,0 +1,78 @@
+.main-nav{
+}
+
+.nav-link{
+    color:white;
+}
+
+.feature-section:after{
+      content:"";
+    display:block;
+    clear:both;
+}
+
+.feature-section{
+    padding:2%;
+       color: rgb(44, 62, 80);
+       position:relative;
+}
+
+.feature-column{
+    float:left;
+}
+
+
+.feature-content{
+   padding-left: 15%;
+    width: 45%;
+}
+.features-hero{
+    width:60%;
+}
+
+.hero-image{
+    width:40%;
+}
+
+.feature-header{
+    margin:0 auto;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    
+}
+
+.features-text{
+    margin:0 auto;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    padding:.7% 0 5% 0;
+    
+}
+
+.intro-text{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 60px;
+    margin-top:13%;
+    color:white;
+    
+}
+
+.features-content{
+    padding-left:9%;
+    margin-top: 18%;
+
+}
+
+.gradient{
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: #09d0ed; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(-45deg, #0063a6, #09d0ed); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg, #0063a6, #09d0ed; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg, #0063a6, #09d0ed); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg, #0063a6, #09d0ed); /* Standard syntax (must be last) */
+}
