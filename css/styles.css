@@ -34,9 +34,9 @@ body{
 }
 
 .logo{
-    height:60px;
+    height:40px;
     float:left;
-    padding:10px 0px 0px 15px;
+    padding:20px 0px 0px 15px;
 }
 
 /*End Nav Styles*/
@@ -101,6 +101,7 @@ h1{
     color:white;
     text-shadow: 1px 1px 10px #010032;
     line-height: 90px;
+    margin:0 auto;
 }
 
 .itunes-button{
@@ -121,23 +122,23 @@ h1{
 
 .features{
     background-color: rgb(236, 240, 241);
+    height:900px;
 }
 .app-column{
-    margin:0 auto;
     width:56%;
+    height:900px;
     position: relative;
-    padding:3% 1%;
     background-color:rgb(52, 152, 219);
 }
 
 .app-preview{
      width: 85%;
-    padding-left:0;
+    margin-top:8.5%;
 }
 
 
 .reviews{
-    width:38%;
+    width:40%;
     position: relative;
     padding: 3% 2%;
 }
@@ -145,8 +146,9 @@ h1{
 .headline{
     margin:0;
     font-family: 'Oxygen', sans-serif;
-    font-size: 42px;
+    font-size: 50px;
     color: rgb(44, 62, 80);
+    text-align: center;
 }
 
 
@@ -213,7 +215,7 @@ h1{
 
 .quote2-container{
     position:absolute;
-    bottom:5%;
+    bottom:3%;
     left:20%;
 }
 
@@ -234,16 +236,24 @@ h1{
     text-shadow: 1px 1px 2px #010032;
 }
 
+
+h2{
+    margin:0 auto;
+}
 /* End Features Section */
 
 
 /* Start Footer Section */
 
-
+.footer:after{
+      content:"";
+    display:block;
+    clear:both;
+}
 
 .footer{
     background-color:rgb(44, 62, 80);
-    height:71px;
+    height:100px;
     padding:1%;
 }
 
@@ -285,6 +295,9 @@ h1{
      font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     color:#697d8c;
+    letter-spacing: 1px;
 }
+
+
 
 /* End Footer Section */
